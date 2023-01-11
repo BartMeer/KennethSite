@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+html,body{
+    margin:0;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+img {
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  border-radius: 10px;
+}
+
+/* Header en menu*/
+.header{
+  background-image: url(img/Achtergond.jpg);     
+  background-size:100%;
+  background-attachment:fixed;    
+  max-width: 100%;
+  max-height: 100%; 
+  background-repeat: no-repeat;
+}
+.menu {  
+  width: 100%;  
+  background: rgba(0, 0, 0, 0.8);
+  display:flex;
+  justify-content: center;
+}
+.nav{ 
+  border:1.2rem;
+  border-radius:4rem;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  align-content:center;
+  margin:1rem;   
+  padding: 1rem;
+  font-weight:600;
+  font-size:1rem;
+  line-height:1;
+  box-sizing:border-box;
+  height:1rem;  
+  background: linear-gradient(to left, #323232 50%, #E67817 50%) right;
+  background-size: 210% 100%;
+}  
+.selected {  
+  background: #E67817;
+  background-size: 200% 100%;
+}
+.header a{
+    color: white;
+  }
+
+  header li {
+    float: left;
+    list-style: none;
+  }
+  header a:hover {    
+    background-position: left;
+    transition:all 1s ease;
+  }  
+  /* Header en menu*/
+  
+main {
+  padding-top: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5rem;
+}
+
+  footer {
+	  background-color: #323232;
+	  color: white;
+    text-align: center;		
+    padding: 1rem;  
+    margin-top: auto;
+  }
+  footer a {
+    color: white;         
+  }
+  footer p {
+    padding-top: 0.5rem;      
+  }
+  footer ul li {
+    display:inline;   
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  body{ 
+    display:flex; 
+    flex-direction:column; 
+  }
+  #Titel{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+  }
+/*mobile*/
+  @media screen and (max-width: 1079px){    
+ }
+  
+
