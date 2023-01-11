@@ -98,6 +98,7 @@
 .Montage {
     width: 45%;
     float: left;
+    padding-bottom: 2vh;
 }
 .Herstellingen {
     width: 45%;
@@ -131,6 +132,7 @@
 
 
     .merken__img{
+        margin-top: 10px;
         width: 50vw;
     }
     .visible__mobile{
