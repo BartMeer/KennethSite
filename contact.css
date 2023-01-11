@@ -1,0 +1,27 @@
+ul{
+    list-style: none;    
+}
+.locatie {
+    float: right;
+    width: 45%;
+}  
+#GoogleIFRAME {  
+    width: 100%;   
+    height: 55vh;
+}
+.contact{
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+/* mobile*/
+@media screen and (max-width: 1079px){
+    .locatie {
+        width: 100%;
+    }  
+    .contact{
+        width: 100%;
+    }
+ }
+ /* mobile*/
+

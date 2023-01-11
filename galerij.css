@@ -1,0 +1,52 @@
+.slideshow{
+    text-align: center;
+}
+
+.display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+.display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+.black {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.mySlides{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55vh;
+    max-width: auto;
+}
+
+/* mobile*/
+@media screen and (max-width: 1079px){
+    .mySlides{
+        width: 100%;
+        height: auto;
+    }
+ }
+ /* mobile*/
