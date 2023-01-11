@@ -87,11 +87,9 @@
   float: left;
 }
 #__img{
-  width: 50%;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  width: 25%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 .Bike__assistance{
   width: 50%;
@@ -137,6 +135,7 @@
     }
     .visible__mobile{
         display: block;
+        margin: auto;
     }
     .invisible__mobile{
         display: none;
@@ -146,11 +145,10 @@
       float: left;
     }
     #__img{
-      width: 100%;
-      padding-right: 10%;
-      padding-left: 10%;
-      padding-top: 2vh;
-      padding-bottom: 2vh;
+        float: none;
+      width: 80%;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
     }
     .Bike__assistance{
       width: 100%;
@@ -166,5 +164,9 @@
         padding-bottom: 2vh;
         float: right;
     }
+    .center__mobile{
+        text-align: center;
+    }
+    
   }
   /* mobile*/

@@ -3,6 +3,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   max-height: 18rem;
+  box-shadow:none !important;
 }
 main{
   padding-top: 3rem;
@@ -12,10 +13,10 @@ main{
   width: 45%;
 }
 .Overons img{
-  padding-left: 20vw;
-  width: 45%;
+  margin-left: 1vw;
+  width: 25%;
   float: right;
-}
+ }
 .nieuws{
   background-color: #323232;
   margin: 5vh 0vh 5vh 0vh;
@@ -49,10 +50,14 @@ main{
   }
   .Overons .text{  
     width: 100%;
+    text-align: center;
   }
   .Overons img{
     padding-left: 0vw;
     width: 100%;
+  }
+  .nieuws{
+    text-align: center;
   }
 }
 /* mobile*/
