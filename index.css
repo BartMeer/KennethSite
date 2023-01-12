@@ -39,9 +39,9 @@ main{
 /* mobile*/
 @media screen and (max-width: 1079px){
   .logo {     
-    margin-top: -1rem;
+    margin-top: -0.5rem;
     margin-bottom: -0rem;
-    max-height: 14rem;
+    max-height: 12.5rem;
   }
 
   main{
