@@ -39,15 +39,16 @@ img {
   line-height:1;
   box-sizing:border-box;
   height:1rem;  
-  background: linear-gradient(to left, #323232 50%, #E67817 50%) right;
+  background: linear-gradient(to left, #323232 50%, white 50%) right;
   background-size: 210% 100%;
 }  
-.selected {  
-  background: #E67817;
-  background-size: 200% 100%;
-}
 .header a{
     color: white;
+  }
+  .selected {  
+    background: white;
+    background-size: 200% 100%;
+    color: #323232 !important; 
   }
 
   header li {
@@ -57,6 +58,7 @@ img {
   header a:hover {    
     background-position: left;
     transition:all 1s ease;
+    color: #323232;
   }  
   /* Header en menu*/
   
