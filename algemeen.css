@@ -11,6 +11,9 @@ img {
   box-shadow: 0 1px 5px 0 rgb(160, 160, 160), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
   border-radius: 10px;
 }
+a {
+  color: lightblue;
+}
 
 /* Header en menu*/
 .header{
