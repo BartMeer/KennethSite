@@ -11,12 +11,12 @@
 
 .opties{ 
     width: 100%;
-    float: left;
-    background-color: #323232;
+    float: left;    
+    background-color: white;
     border-radius:0rem 0rem 1rem 1rem;
 }
 .opties p{    
-    color: white;
+    color: black;
 }
 .row__img {
     width: 80%;
@@ -58,8 +58,8 @@
     color: white;
 }
 .current {
-    background-color: #323232;
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
@@ -96,10 +96,13 @@
     width: 45%;
     float: left;
     padding-bottom: 2vh;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 .Herstellingen {
     width: 45%;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     padding-bottom: 2vh;
     float: right;
 }
