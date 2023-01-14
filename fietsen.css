@@ -94,9 +94,10 @@
 .Bike__assistance{
   width: 50%;
   float: right;
+  margin-bottom: 2vh;
 }
-.Bike__assistance li{
-    text-align: left;
+.Bike__assistance p{
+    text-align: center;
 }
 .Montage {
     width: 45%;
