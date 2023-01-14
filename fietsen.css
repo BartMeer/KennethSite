@@ -95,9 +95,9 @@
   width: 50%;
   float: right;
 }
-.Bike__assistance p{
-    text-align: center;
-  }
+.Bike__assistance li{
+    text-align: left;
+}
 .Montage {
     width: 45%;
     float: left;
@@ -117,9 +117,6 @@
 @media screen and (max-width: 1079px){
     
     /* Fietsen*/
-    .opties{ 
-        border-radius:0rem;
-    }
     .row1 .colum{    
         width: 50%;
     }
