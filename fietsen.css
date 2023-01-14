@@ -17,6 +17,7 @@
 }
 .opties p{    
     color: black;
+    text-align: center;
 }
 .row__img {
     width: 80%;
@@ -43,29 +44,31 @@
     opacity: 0.5;
 }
 
-.next {
-    background-color: lightgrey;
-    color: black;
-    text-decoration: none;
-    padding: 8px 16px;
-    border:1rem;
-    border-radius:1rem 0rem 1rem 1rem;
-    float: right;
-    margin-top: -1%;
+.Links {
+    border-radius:1rem 0rem 0rem 0rem;
 }
-.next:hover {
-    background-color: #323232;
-    color: white;
+.Rechts {
+    border-radius:0rem 1rem 0rem 0rem;
 }
 .current {
     background-color: white;
     color: black;
     text-decoration: none;
-    display: inline-block;
     padding: 8px 16px;
-    border-radius:1rem 1rem 0rem 0rem;
-    margin-bottom: -10%;
-    width: 100%;
+    width: 50%;
+    float: left;
+}
+.next {
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 50%;
+    float: left;
+}
+.next:hover {
+    background-color: #323232;
+    color: white;
 }
 
 .info{
@@ -92,17 +95,17 @@
   width: 50%;
   float: right;
 }
+.Bike__assistance p{
+    text-align: center;
+  }
 .Montage {
     width: 45%;
     float: left;
     padding-bottom: 2vh;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 5%;
 }
 .Herstellingen {
     width: 45%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
     padding-bottom: 2vh;
     float: right;
 }
@@ -116,15 +119,6 @@
     /* Fietsen*/
     .opties{ 
         border-radius:0rem;
-    }
-    .next {
-        margin-top: -0.1%;
-        width: 100%;
-        border-radius:0rem 0rem 1rem 1rem;
-    }
-    .current {
-        margin: 0vh 0vh 0vh 0;
-        width: 100%;
     }
     .row1 .colum{    
         width: 50%;
@@ -169,7 +163,6 @@
     }
     .Herstellingen {
         width: 100%;
-        margin-left: 5%;
         padding-bottom: 2vh;
         float: right;
     }

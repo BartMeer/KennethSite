@@ -52,6 +52,7 @@
 
                 <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
+                <p style="text-align: center; padding-top: 2%;">Foto: <span id="myText"></span> van 6</p>
             </div>
 
             <script>
@@ -69,6 +70,12 @@
               if (n < 1) {slideIndex = x.length}
               for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";  
+                if (n == 7){
+                  document.getElementById("myText").innerHTML = 1;
+                }
+                else {
+                  document.getElementById("myText").innerHTML = n;
+                }
               }
               x[slideIndex-1].style.display = "block";  
             }
@@ -76,11 +83,8 @@
         </main>          
         
         <footer>
-            <ul>
-                <li><a href="https://www.oxfordbikes.be" target="_blank"><img src="img/Oxford.jpg"></a></li>
-                <li><a href="https://www.merida.be" target="_blank"><img src="img/Foto 6.png"></a></li></ul>
-                <p>©Bike Maintenance -- Turkeyestraat 14, 1755 Gooik -- 0474/24.43.46</p>
-              </footer>  
+          <p>©Bike Maintenance -- Turkeyestraat 14, 1755 Gooik -- 0474/24.43.46</p>
+        </footer>  
 
     </body>
 </html>
