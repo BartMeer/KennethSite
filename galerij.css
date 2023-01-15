@@ -42,11 +42,43 @@
     max-width: auto;
 }
 
+/* Optie 2*/
+.gal {
+    width: 100%;
+    height: 60vh;
+}
+#gal_9 .galleryItem {
+    float: left;
+    height: 20vh;
+    padding-right: 5%;
+}
+.galleryItem a img {
+    height: 80%;
+}
+div#gal_9 a.navgal_9 {
+    color: #FEFEFE;
+    text-decoration: none;
+}
+div#gal_9 a:hover.navgal_9 {
+    color: #FEFEFE;
+    text-decoration: underline;
+}
+div#gal_9 a.current {
+    color: #FEFEFE;
+    text-decoration: underline;
+}
+
 /* mobile*/
 @media screen and (max-width: 1079px){
     .mySlides{
         width: 90%;
         height: auto;
+    }
+
+    /* Optie 2*/
+    
+    #gal_9 .galleryItem {
+        margin-left: 10%;
     }
  }
  /* mobile*/
