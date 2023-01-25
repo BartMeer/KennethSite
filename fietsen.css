@@ -1,0 +1,110 @@
+.merken__img{
+    width: 10vw;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+.opties{ 
+    width: 100%;
+    float: left;    
+    background-color: white;
+    border-radius:0rem 0rem 1rem 1rem;
+}
+.opties p{    
+    color: black;
+    text-align: center;
+}
+.row__img {
+    width: 80%;
+    margin-top: 7%;
+}
+.row1{    
+    height: 50%;
+}
+.row1 .colum{    
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+.row2{    
+    height: 50%;
+}
+.row2 .colum{    
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.row1 .colum:hover, .row2 .colum:hover{    
+    opacity: 0.5;
+}
+
+.Links {
+    border-radius:1rem 0rem 0rem 0rem;
+}
+.Rechts {
+    border-radius:0rem 1rem 0rem 0rem;
+}
+.current {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 50%;
+    float: left;
+}
+.next {
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 50%;
+    float: left;
+}
+.next:hover {
+    background-color: #323232;
+    color: white;
+}
+
+.visible__mobile{
+    display: none;
+}
+
+/* mobile*/
+@media screen and (max-width: 1079px){
+    
+    /* Fietsen*/
+    .row1 .colum{    
+        width: 50%;
+    }
+    .row2 .colum{    
+        width: 50%;
+    }
+    .row3 .colum{    
+        width: 50%;
+    }
+
+
+    .merken__img{
+        margin-top: 10px;
+        width: 50vw;        
+        margin-right: 0%;
+    }
+    .visible__mobile{
+        display: block;
+        margin: auto;
+    }
+    .invisible__mobile{
+        display: none;
+    }
+    .center__mobile{
+        text-align: center;
+    }
+    
+  }
+  /* mobile*/
