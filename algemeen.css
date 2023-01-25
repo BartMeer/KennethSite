@@ -17,15 +17,8 @@ a {
 p{
   text-align: justify;
 }
-
-/* Header en menu*/
 .header{
-  background-image: url(img/Achtergond.jpg);     
-  background-size:100%;
-  background-attachment:fixed;    
-  max-width: 100%;
-  max-height: 100%; 
-  background-repeat: no-repeat;
+  background-color: black;   
 }
 .menu {  
   width: 100%;  
@@ -90,10 +83,18 @@ main {
     padding-top: 0.5rem;  
     text-align: center !important;	    
   }
+  footer ul {
+    text-align: center;
+  }
   footer ul li {
     display:inline;   
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  footer img {
+    margin-top: 2vh;
+    height: 7vh;
   }
 
   body{ 
@@ -106,7 +107,11 @@ main {
     text-decoration: underline;
   }
 /*mobile*/
-  @media screen and (max-width: 1079px){    
+  @media screen and (max-width: 1079px){  
+    footer img {
+      width: 30%;
+      height: auto;
+    }  
  }
   
 

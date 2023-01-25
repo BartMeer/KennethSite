@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-            <meta charset="UTF-8">
-            <title>Bike Maintenance Galerij</title>            
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="start.css">
-            <link rel="stylesheet" href="algemeen.css">
-            <link rel="stylesheet" href="galerij.css">
-            <link rel="stylesheet" href="menu.css">
-            <script src="https://kit.fontawesome.com/8e7714bc85.js" crossorigin="anonymous"></script>
+      <meta charset="UTF-8">
+      <title>Bike Maintenance Galerij</title>            
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="start.css">
+      <link rel="stylesheet" href="algemeen.css">
+      <link rel="stylesheet" href="galerij.css">
+      <link rel="stylesheet" href="menu.css">
+     
+      <link rel="stylesheet" type="text/css" href="ew_css/ewImageGallery.css" />
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function()
+             {
+                $('#gal_9').imageGallery({slideshow:4000, autoplay_slideshow:true,deeplinking:false,});
+             });
+      </script>
+      <script type="text/javascript" src="ew_js/ewImageGallery.js"></script>
     </head>
     <body>
         <header>
             <div class="header">
                 <div class="menu">
                     <li><a href="index.html" class="nav">Home</a></li>
-                    <li><a href="fietsen.html" class="nav">Onze diensten</a></li>  
+                    <li><a href="onzeDiensten.html" class="nav">Onze diensten</a></li>  
+                    <li><a href="fietsen.html" class="nav">Fietsen</a></li>
                     <li><a href="galerij.html" class="nav selected">Galerij</a></li>
-                    <li><a href="Tweedehands.html" class="nav">Tweedehands</a></li>
                     <li><a href="contact.html" class="nav">Contact</a></li> 
-                    <li><a href="Openingsuren.html" class="nav">Openingsuren</a></li>   
                 </div>  
             </div>    
                 
@@ -30,63 +39,83 @@
               <label class='menu-button-container' for="menu-toggle">
               <div class='menu-button'></div>
             </label>
-              <ul class="menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="fietsen.html">Onze diensten</a></li>  
-                  <li><a href="galerij.html">Galerij</a></li>
-                  <li><a href="Tweedehands.html">Tweedehands</a></li>
-                  <li><a href="contact.html">Contact</a></li>  
-                  <li><a href="Openingsuren.html">Openingsuren</a></li> 
-              </ul>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="onzeDiensten.html">Onze diensten</a></li>  
+                <li><a href="fietsen.html">Fietsen</a></li>
+                <li><a href="galerij.html">Galerij</a></li>
+                <li><a href="contact.html">Contact</a></li>  
+            </ul>
             </section>                        
         </header>         
-        <main>     
-            <a href="galerij2.html">Optie 2</a>  
-                
-            <h1 id="Titel">Galerij</h1>                   
-            <div class="slideshow">
-                <img class="mySlides" src="img/WieZijnWij.jpg">
-                <img class="mySlides" src="img/Foto1.png">
-                <img class="mySlides" src="img/SlideShow/Onderhoud.jpg">
-                <img class="mySlides" src="img/SlideShow/Herstelling.jpg">
-                <img class="mySlides" src="img/SlideShow/Montage.jpg">
-                <img class="mySlides" src="img/SlideShow/Diensten.jpg">
 
-                <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
-                <p style="text-align: center; padding-top: 2%;">Foto: <span id="myText"></span> van 6</p>
-            </div>
+        <main>   
+          <a style="display: none;" href="galerij2.html">Optie 2</a>  
+          <h1 id="Titel">Galerij</h1>     
+          
+          <div class="gal" id="gal_9">
+             <div style="all: revert;" class="nav">
+               <a class="navgal_9 prev button black display-left" data-id="1" href="javascript:void(0)">&lt;</a> <a class="navgal_9 page" data-id="1"  href="javascript:void(0)">1</a> 
+               <a class="navgal_9 page" data-id="2"  href="javascript:void(0)">2</a> <a class="navgal_9 next button black display-right" data-id="2" href="javascript:void(0)">&gt;</a>
+             </div>              
+             <br style="clear:both;"/>           
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/18_Z21DWitBlauw_g9i0.jpg"><img src="images/galerij/18_Z21DWitBlauw_g9i0.jpg"/></a>
+             </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/18_Z21DZwartRood_g9i1.jpg"><img src="images/galerij/18_Z21DZwartRood_g9i1.jpg"/></a>
+              </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z29eStepsZwartBlauw_g9i2.jpg"><img src="images/galerij/19_z29eStepsZwartBlauw_g9i2.jpg"/></a>
+             </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z29FSZwartBlauw_g9i3.jpg"><img src="images/galerij/19_z29FSZwartBlauw_g9i3.jpg"/></a>
+             </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z29ZwartRood_g9i4.jpg"><img src="images/galerij/19_z29ZwartRood_g9i4.jpg"/></a>
+             </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z46DiscZwartOranje_g9i5.jpg"><img src="images/galerij/19_z46DiscZwartOranje_g9i5.jpg"/></a>
+              </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_Z82DiscZwartRood_g9i6.jpg"><img src="images/galerij/19_Z82DiscZwartRood_g9i6.jpg"/></a>
+             </div>
+             <div class="galleryItem page1">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z88OranjeLTD_g9i7.jpg"><img src="images/galerij/19_z88OranjeLTD_g9i7.jpg"/></a>
+             </div>
+             
+             <div class="galleryItem page2">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z96ZwartGrijsRood_g9i8.jpg"><img src="images/galerij/19_z96ZwartGrijsRood_g9i8.jpg"/></a>
+              </div>
+             <div class="galleryItem page2">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/19_z112ttZwartGrijsRood_g9i9.jpg"><img src="images/galerij/19_z112ttZwartGrijsRood_g9i9.jpg"/></a>
+             </div>
+             <div class="galleryItem page2">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/Bosch-SE-7V-D-grafietgrijs_g9i10.jpg"><img src="images/galerij/Bosch-SE-7V-D-grafietgrijs_g9i10.jpg"/></a>
+             </div>
+             <div class="galleryItem page2">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/box1.0-@W800_g9i11.png"><img src="images/galerij/box1.0-@W800_g9i11.png"/></a>
+             </div>
+             <div class="galleryItem page2">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/Brighton 1_g9i12.jpg"><img src="images/galerij/Brighton 1_g9i12.jpg"/></a>
+             </div>
+             <div class="galleryItem page2">
+                <a rel="prettyphoto[gallery9]" href="images/galerij/Brighton-7V-D-wit_g9i13.jpg"><img src="images/galerij/Brighton-7V-D-wit_g9i13.jpg"/></a>
+             </div>
+          </div>
 
-            <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-            
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
-
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              if (n > x.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-                if (n == 7){
-                  document.getElementById("myText").innerHTML = 1;
-                }
-                else {
-                  document.getElementById("myText").innerHTML = n;
-                }
-              }
-              x[slideIndex-1].style.display = "block";  
-            }
-            </script> 
         </main>          
         
         <footer>
-          <p>©Bike Maintenance -- Turkeyestraat 14, 1755 Gooik -- 0474/24.43.46</p>
-        </footer>  
+         <p>©Bike Maintenance -- Turkeyestraat 14, 1755 Gooik -- 0474/24.43.46</p>
+         <ul>
+             <li><img src="img/Foto 6.png"></li>
+             <li><img src="img/Oxford.jpg"></li>
+             <li><img src="img/Foto 2.jpg"></li>
+             <li><img src="img/PH.png"></li>
+             <li><img src="img/PH.png"></li>
+         </ul>
+     </footer>  
 
     </body>
 </html>

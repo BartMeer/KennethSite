@@ -1,0 +1,78 @@
+.info{
+    text-align: center;
+    width: 100%;
+    padding-top: 5vh;
+}
+.info li{
+    list-style: none;
+}
+.info h2{
+    padding-top: 2vh;
+}
+.Onderhoud{
+  width: 50%; 
+  float: left;
+}
+.Bike__assistance{
+  width: 50%;
+  float: right;
+}
+.Montage {
+    width: 50%;
+    float: left;
+}
+.Herstellingen {
+    width: 50%;
+    float: right;
+}
+#__img{
+  width: 25%;
+  margin-top: 2vh;
+}
+.Bike__assistance p{
+    text-align: center;
+}
+.visible__mobile{
+    display: none;
+}
+
+/* mobile*/
+@media screen and (max-width: 1079px){
+    
+    /* Fietsen*/
+
+    .visible__mobile{
+        display: block;
+        margin: auto;
+    }
+    .invisible__mobile{
+        display: none;
+    }
+    .Onderhoud{
+      width: 100%;
+      float: left;
+    }
+    #__img{
+        float: none;
+      width: 80%;
+      margin-top: 2vh;
+    }
+    .Bike__assistance{
+      width: 100%;
+      float: right;
+    }
+    .Montage {
+        width: 100%;
+        float: left;
+    }
+    .Herstellingen {
+        width: 100%;
+        padding-bottom: 2vh;
+        float: right;
+    }
+    .center__mobile{
+        text-align: center;
+    }
+    
+  }
+  /* mobile*/

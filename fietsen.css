@@ -71,45 +71,6 @@
     color: white;
 }
 
-.info{
-    text-align: center;
-    width: 100%;
-    padding-top: 10vh;
-}
-.info li{
-    list-style: none;
-}
-.info h2{
-  padding-top: 2vh;
-}
-.Onderhoud{
-  width: 50%;
-  float: left;
-}
-#__img{
-  width: 25%;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-}
-.Bike__assistance{
-  width: 50%;
-  float: right;
-  margin-bottom: 2vh;
-}
-.Bike__assistance p{
-    text-align: center;
-}
-.Montage {
-    width: 45%;
-    float: left;
-    padding-bottom: 2vh;
-    margin-right: 5%;
-}
-.Herstellingen {
-    width: 45%;
-    padding-bottom: 2vh;
-    float: right;
-}
 .visible__mobile{
     display: none;
 }
@@ -140,28 +101,6 @@
     }
     .invisible__mobile{
         display: none;
-    }
-    .Onderhoud{
-      width: 100%;
-      float: left;
-    }
-    #__img{
-        float: none;
-      width: 80%;
-      margin-top: 2vh;
-    }
-    .Bike__assistance{
-      width: 100%;
-      float: right;
-    }
-    .Montage {
-        width: 100%;
-        float: left;
-    }
-    .Herstellingen {
-        width: 100%;
-        padding-bottom: 2vh;
-        float: right;
     }
     .center__mobile{
         text-align: center;
