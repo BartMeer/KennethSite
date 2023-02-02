@@ -1,7 +1,10 @@
 .merken__img{
-    width: 10vw;
-    margin-right: 5%;
-    margin-bottom: 3%;
+    width: 25%;
+    margin: 5vh 8vw 5vh 8vw;
+}
+.merken__img:hover{
+    width: 28%;
+    transition: 0.5s;
 }
 
 .center{
@@ -91,9 +94,8 @@
 
 
     .merken__img{
-        margin-top: 10px;
         width: 50vw;        
-        margin-right: 0%;
+        margin: 5vh 0vw 0vh 0vw;
     }
     .visible__mobile{
         display: block;

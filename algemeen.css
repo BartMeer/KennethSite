@@ -109,9 +109,14 @@ main {
 /*mobile*/
   @media screen and (max-width: 1079px){  
     footer img {
-      width: 30%;
+      width: 25%;
       height: auto;
     }  
+    footer ul li {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      vertical-align: middle;
+    }
  }
   
 
