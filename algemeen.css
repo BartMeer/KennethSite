@@ -52,10 +52,6 @@ p{
     color: #323232 !important; 
   }
 
-  header li {
-    float: left;
-    list-style: none;
-  }
   header a:hover {    
     background-position: left;
     transition:all 1s ease;
@@ -94,7 +90,7 @@ main {
   }
   footer img {
     margin-top: 2vh;
-    height: 7vh;
+    height: 10vh;
   }
 
   body{ 

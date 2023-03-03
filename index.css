@@ -1,9 +1,14 @@
 .logo {     
   min-height: 5rem;  
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-height: 18rem;
+  margin-bottom: 0rem;
+  width: 30%;
   box-shadow:none !important;
+  margin-left: 35%;
+}
+.s3{
+  width: 35%;
+  float: right;
 }
 main{
   padding-top: 3rem;
@@ -21,18 +26,20 @@ main{
   background-color: #323232;
   margin: 5vh 0vh 5vh 0vh;
   border-radius: 1rem;
+  text-align: center;
 }
 .nieuws h2, .nieuws p {
   color: white;
   padding: 10px 20px 10px 20px;
+  text-align: center;
 }
-
-.header{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;    
+.header ul li img{
+  width: 6rem;
+}
+.s3 li{
+  margin-top: 12%;
+  margin-left: 20%;
+  list-style: none;
 }
 
 

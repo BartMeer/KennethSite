@@ -26,9 +26,9 @@ ul{
     list-style-position: inside;
     list-style: none;
 }
-.winkel {
-    width: 50%;
-    float: left;
+.winkel ul{
+    max-width: 50%;
+    margin-left: 25%;
 }
 h3{
     padding-bottom: 1vh;
