@@ -9,7 +9,7 @@ html,body{
 }
 img {
   box-shadow: 0 1px 5px 0 rgb(160, 160, 160), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 a {
   color: lightblue;
@@ -105,7 +105,7 @@ main {
 /*mobile*/
   @media screen and (max-width: 1079px){  
     footer img {
-      width: 25%;
+      width: 30%;
       height: auto;
     }  
     footer ul li {
