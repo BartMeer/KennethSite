@@ -1,9 +1,9 @@
 .merken__img{
-    width: 25%;
+    height: 12vh;
     margin: 5vh 8vw 5vh 8vw;
 }
 .merken__img:hover{
-    width: 28%;
+    height: 13vh;
     transition: 0.5s;
 }
 

@@ -1,10 +1,17 @@
+html,body{
+  background-color: #323232;
+}
+
+footer {
+  background-color: black;
+}
 .logo {     
   min-height: 5rem;  
   margin-top: 1rem;
-  margin-bottom: 0rem;
-  width: 30%;
+  margin-bottom: -3rem;
+  width: 50vw;
   box-shadow:none !important;
-  margin-left: 35%;
+  margin-left: 25%;
 }
 .s3{
   width: 35%;
@@ -19,7 +26,7 @@ main{
 }
 .Overons img{
   margin-left: 1vw;
-  width: 25%;
+  width: 30%;
   float: right;
  }
 .nieuws{
@@ -36,14 +43,11 @@ main{
 .header ul li img{
   width: 6rem;
 }
-.s3 li{
-  margin-top: 12%;
-  margin-left: 20%;
-  list-style: none;
-}
 .vollezele {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
 }
 .vollezele img{
   box-shadow:none !important;
