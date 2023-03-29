@@ -23,7 +23,7 @@
     text-align: center;
 }
 .row__img {
-    width: 80%;
+    height: 25vh;
     margin-top: 7%;
 }
 .row1{    
@@ -91,10 +91,16 @@
     .row3 .colum{    
         width: 50%;
     }
+    .row__img {
+        width:80%;
+        height: auto;
+        margin-top: 7%;
+    }
 
 
     .merken__img{
-        width: 50vw;        
+        width: 50vw;   
+        height: auto;     
         margin: 5vh 0vw 0vh 0vw;
     }
     .visible__mobile{

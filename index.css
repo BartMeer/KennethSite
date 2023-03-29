@@ -25,7 +25,6 @@ main{
   width: 45%;
 }
 .Overons img{
-  margin-left: 1vw;
   width: 30%;
   float: right;
  }
@@ -86,9 +85,10 @@ main{
   }
   .Overons img{
     margin-top: 20px;
-    padding-left: 0vw;
     width: 100%;
+    margin-right:0vw;
   }
+  
   .nieuws{
     text-align: center;
   }
