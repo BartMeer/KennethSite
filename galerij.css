@@ -45,12 +45,12 @@
 /* Optie 2*/
 .gal {
     width: 110%;
-    height: 60vh;
+    height: 40vh;
 }
 #gal_9 .galleryItem {
     float: left;
     height: 25vh;
-    padding-right: 5%;
+    padding: 0% 2.5% 0% 2.5%;
 }
 .galleryItem a img {
     height: 80%;
