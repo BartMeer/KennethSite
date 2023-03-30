@@ -44,12 +44,12 @@
 
 /* Optie 2*/
 .gal {
-    width: 100%;
+    width: 110%;
     height: 60vh;
 }
 #gal_9 .galleryItem {
     float: left;
-    height: 20vh;
+    height: 25vh;
     padding-right: 5%;
 }
 .galleryItem a img {
@@ -76,9 +76,8 @@ div#gal_9 a.current {
     }
 
     /* Optie 2*/
-    
-    #gal_9 .galleryItem {
-        margin-left: 10%;
+    .gal {
+        width: auto;
     }
  }
  /* mobile*/

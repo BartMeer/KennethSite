@@ -102,6 +102,10 @@ main {
     padding-bottom: 2rem;
     text-decoration: underline;
   }
+
+  .hide {
+    display: none;
+  }
 /*mobile*/
   @media screen and (max-width: 1079px){  
     footer img {
