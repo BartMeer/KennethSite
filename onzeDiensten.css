@@ -35,6 +35,10 @@
 .visible__mobile{
     display: none;
 }
+.Leasing img{    
+  height: 100px;
+  margin: 15px;
+}
 
 /* mobile*/
 @media screen and (max-width: 1079px){
