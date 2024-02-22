@@ -1,53 +1,65 @@
-ul{
-    list-style: none;    
+ul {
+  list-style: none;
 }
 .locatie {
-    float: right;
-    width: 45%;
-}  
-#GoogleIFRAME {  
-    width: 100%;   
-    height: 50vh;
+  float: right;
+  width: 45%;
 }
-.contact{
-    width: 45%;
-    float: left;
-    text-align: center;
+#GoogleIFRAME {
+  width: 100%;
+  height: 50vh;
 }
-.openingsuren{
-    padding-top: 5vh;
-    text-align: center;
+.contact {
+  width: 45%;
+  float: left;
+  text-align: center;
 }
-.openingsuren ul{
-    list-style-type: disc;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2;
-    list-style-position: inside;
-    list-style: none;
+.openingsuren {
+  padding-top: 5vh;
 }
-.winkel ul{
-    max-width: 100%;
-    margin-left: 0%;
+.openingsuren ul {
+  list-style-type: disc;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
+  list-style: none;
 }
-h3{
-    padding-bottom: 1vh;
+.winkel ul {
+  max-width: 100%;
+  margin-left: 0%;
+}
+h3 {
+  padding-bottom: 1vh;
 }
 
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 3px;
+}
+th {
+  background-color: #323232;
+}
 
 /* mobile*/
-@media screen and (max-width: 1079px){
-    .locatie {
-        width: 100%;
-        padding-top: 20px;
-    }  
-    .contact{
-        width: 100%;
-    }
-    .winkel {
-        width: 100%;
-        padding-bottom: 5vh;
-    }
- }
- /* mobile*/
-
+@media screen and (max-width: 1079px) {
+  .locatie {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .contact {
+    width: 100%;
+  }
+  .winkel {
+    width: 100%;
+    padding-bottom: 5vh;
+  }
+}
+/* mobile*/
