@@ -50,6 +50,19 @@ th {
 .tabel {
   display: none;
 }
+
+.nieuws {
+  background-color: #323232;
+  margin: 5vh 0vh 5vh 0vh;
+  border-radius: 1rem;
+  text-align: center;
+}
+.nieuws h2,
+.nieuws p {
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
 /* mobile*/
 @media screen and (max-width: 1079px) {
   .locatie {
@@ -66,7 +79,7 @@ th {
   .openingsuren {
     padding-top: 5vh;
   }
-  .toekomst ul{
+  .toekomst ul {
     display: none;
   }
   .tabel {
